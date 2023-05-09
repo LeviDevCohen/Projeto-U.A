@@ -1,0 +1,274 @@
+/* font-family: 'Cinzel', serif;
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Comfortaa', cursive;
+font-family: 'Cormorant', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Cormorant Infant', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Outfit', sans-serif; */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu-nav ul {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+}
+
+.menu-nav a {
+    font-family: 'Cinzel';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+}
+
+.menu-nav {
+    background-color: #E9F4FF;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    height: 151px;
+
+}
+
+.menu-nav li {
+    margin-top: 45px;
+}
+
+/* .menu-div input label{
+    display: flex;
+    
+} */
+.menu-div {
+    display: flex;
+
+}
+
+
+
+.menu-div img {
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+/* form {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+    align-items: center;
+}
+
+input {
+    height: 30px;
+    width: 274px;
+    font-family: 'Cinzel';
+    font-weight: 400;
+    font-size: 13px;
+    color: #9F7944;
+    border: #9F7944 solid 1px;
+    border-radius: 5px;
+}
+
+label {
+    margin-left: 30px;
+    margin-top: -10px;
+} */
+
+.titulo-div h1 {
+    font-family: 'Cinzel';
+    font-weight: 200;
+    font-size: 30px;
+    color: #9F7944;
+    margin-top: 100px;
+    padding-right: 500px;
+}
+
+/* .titulo-div img{
+    position: relative;
+    margin-left: -60px;
+    margin-top: -8px;
+    width: 130px;
+height: 160px;
+
+} */
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #9F7944;
+}
+
+.pensadores-div {
+    position: relative;
+    height: 1300px;
+}
+
+.CarlSagan img {
+    width: 450px;
+    border-radius: 4px;
+    margin-top: 49px;
+    margin-left: 200px;
+}
+
+.Carl img {
+    width: 320px;
+    margin-top: -250px;
+    margin-left: 500px;
+    border: #9F7944 1px solid;
+}
+
+.StephenHawking img {
+    position: absolute;
+    top: 200px;
+    right: 50px;
+    width: 450px;
+    border-radius: 04px;
+    margin-top: 250px;
+    margin-left: 500px;
+}
+
+.ste img{
+    position: absolute;
+    top: 430px;
+    right: 340px;
+    width: 320px;
+    margin-left: 300px;
+    border: #9F7944 1px solid;
+}
+
+.Greta img {
+    position: absolute;
+    width: 450px;
+    left: 94px;
+    top: 800px;
+    border-radius: 5px;
+}
+
+.gret img {
+    position: absolute;
+    left: 380px;
+    z-index: 10;
+    margin-top: 200px;
+    width: 320px;
+    border: #9F7944 1px solid;
+}
+
+.container-fluid {
+    background-color: #E9F4FF;
+}
+
+.nav-item a {
+    font-family: 'Cinzel';
+    font-weight: 400;
+    font-size: 22px;
+    color: #9F7944;
+}
+
+.container-fluid img {
+    width: 200px;
+}
+
+.dropdown-item {
+    width: 300px;
+}
+
+.div-box {
+    background: #1D3E60;
+    width: 100%;
+    height: 683px;
+}
+
+.div-box h1 {
+    font-family: 'Cinzel';
+    font-weight: 400;
+    font-size: 48px;
+    color: #9F7944;
+    padding-top: 41px;
+    padding-left: 700px;
+}
+
+.div-box ul {
+    display: flex;
+    gap: 280px;
+    padding-top: 146px;
+    padding-left: 350px;
+}
+
+.div-box li {
+    font-family: 'Cinzel';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.seguranca a {
+    font-family: 'Outfit';
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+}
+
+.seguranca{
+    padding-left: 350px;
+    padding-top: 40px;
+}
+
+.website a{
+    font-family: 'Outfit';
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+}
+
+.website{
+    padding-left: 900px;
+    margin-top: -85px;
+}
+
+.contato a{
+    font-family: 'Outfit';
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.contato{
+    padding-left: 1275px;
+    margin-top: -85px;
+
+}
+
+.logos{
+    gap: 357px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    
+}
+
+.logos img{
+    width: 150px;
+
+  
+}
+
