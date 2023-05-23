@@ -272,13 +272,13 @@ height: 160px;
 
 }
 
-.h1{
+.h1 {
     font-family: 'Cinzel', serif;
     font-size: 48px;
     text-align: center;
 }
 
-p{
+p {
     font-family: 'Cormorant Garamond', serif;
     font-size: 30px;
     width: 828px;
@@ -286,18 +286,18 @@ p{
     text-align: center;
 }
 
-h2{
+h2 {
     font-family: 'Cormorant Garamond', serif;
     text-align: center;
 }
 
-h3{
+h3 {
     font-family: 'Cormorant Garamond', serif;
     font-size: 25px;
     width: 650px;
 }
 
-h4{
+h4 {
     font-family: 'Outfit', sans-serif;
     font-size: 22px;
     padding-top: 50px;
@@ -305,14 +305,14 @@ h4{
 }
 
 
-.corpo-2{
+.corpo-2 {
     display: flex;
     gap: 40px;
     padding-left: 20px;
     padding-bottom: 20px;
 }
 
-a{
+a {
     text-decoration: inherit;
     color: inherit;
 }
@@ -322,7 +322,7 @@ a{
     padding-top: 20px;
 }
 
-.corpo-3{
+.corpo-3 {
     display: flex;
     gap: 20px;
     padding-left: 38%;
@@ -506,18 +506,18 @@ a{
     background-color: #000;
 }
 
-.carousel-control-next{
+.carousel-control-next {
     margin-top: 179px;
     background-color: #000;
 }
 
-.h1{
+.h1 {
     font-family: 'Cinzel', serif;
     font-size: 48px;
     text-align: center;
 }
 
-.p{
+.p {
     font-family: 'Cormorant Garamond', serif;
     font-size: 30px;
     width: 828px;
@@ -525,25 +525,25 @@ a{
     text-align: center;
 }
 
-.h2{
+.h2 {
     font-family: 'Cormorant Garamond', serif;
     text-align: center;
 }
 
-.h3{
+.h3 {
     font-family: 'Cormorant Garamond', serif;
     font-size: 25px;
     width: 650px;
 }
 
-.h4{
+.h4 {
     font-family: 'Outfit', sans-serif;
     font-size: 22px;
     padding-top: 50px;
     text-align: center;
 }
 
-.corpo-2{
+.corpo-2 {
     display: flex;
     gap: 40px;
     padding-left: 20px;
@@ -555,37 +555,37 @@ a{
     padding-top: 20px;
 }
 
-.corpo-3{
+.corpo-3 {
     display: flex;
     gap: 20px;
     padding-left: 38%;
     padding-bottom: 50px;
 }
 
-.corpo-3 img{
+.corpo-3 img {
     width: 456px;
     height: 309px;
 }
 
 
-.div-evento{
+.div-evento {
     display: flex;
     font-family: 'Cinzel';
     font-size: 48px;
     justify-content: end;
-    color:rgba(159, 121, 68, 1);
+    color: rgba(159, 121, 68, 1);
     padding-top: 20px;
     padding-right: 20px;
 }
 
-.div-eveimg{
+.div-eveimg {
     padding-left: 500px;
     padding-top: 20px;
     width: 400px;
     text-align: center;
 }
 
- a{
-text-decoration: none;
-color: inherit;
+a {
+    text-decoration: none;
+    color: inherit;
 }
