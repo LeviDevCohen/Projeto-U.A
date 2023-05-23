@@ -272,6 +272,62 @@ height: 160px;
 
 }
 
+.h1{
+    font-family: 'Cinzel', serif;
+    font-size: 48px;
+    text-align: center;
+}
+
+p{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    width: 828px;
+    height: 231px;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+    width: 650px;
+}
+
+h4{
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+.corpo-2{
+    display: flex;
+    gap: 40px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+a{
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.corpo-1 {
+    padding-left: 50%;
+    padding-top: 20px;
+}
+
+.corpo-3{
+    display: flex;
+    gap: 20px;
+    padding-left: 38%;
+    padding-bottom: 50px;
+}
 
 .Sobre-div {
     width: 100%;
