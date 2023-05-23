@@ -137,7 +137,7 @@ height: 160px;
     margin-left: 500px;
 }
 
-.ste img{
+.ste img {
     position: absolute;
     top: 430px;
     right: 340px;
@@ -222,12 +222,12 @@ height: 160px;
     text-align: center;
 }
 
-.seguranca{
+.seguranca {
     padding-left: 350px;
     padding-top: 40px;
 }
 
-.website a{
+.website a {
     font-family: 'Outfit';
     font-weight: 200;
     font-size: 20px;
@@ -237,12 +237,12 @@ height: 160px;
     text-align: center;
 }
 
-.website{
+.website {
     padding-left: 900px;
     margin-top: -85px;
 }
 
-.contato a{
+.contato a {
     font-family: 'Outfit';
     font-weight: 200;
     font-size: 20px;
@@ -251,24 +251,206 @@ height: 160px;
     text-decoration: none;
 }
 
-.contato{
+.contato {
     padding-left: 1275px;
     margin-top: -85px;
 
 }
 
-.logos{
+.logos {
     gap: 357px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 120px;
-    
+
 }
 
-.logos img{
+.logos img {
     width: 150px;
 
-  
+
 }
 
+
+.Sobre-div {
+    width: 100%;
+    height: 1100px;
+}
+
+
+.text h1 {
+    padding-top: 150px;
+    padding-left: 40px;
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 86px;
+    color: #9F7944;
+}
+
+.text h2 {
+    padding-left: 40px;
+    font-size: 30px;
+    width: 700px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.text h3 {
+    padding-top: 40px;
+    padding-left: 40px;
+    width: 880px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.div-img {
+    height: 300px;
+    position: absolute;
+    /* margin-right: 10px; */
+    right: 100px;
+    top: 1000px;
+
+}
+
+.div-img #img-missao {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.campus-div {
+    height: 750px;
+}
+
+.div-cima {
+    background-image: url("/img/Rectangle 15.png");
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+
+}
+
+.div-cima-text {
+    display: flex;
+    gap: 400px;
+}
+
+.line02 {
+    width: 100%;
+    height: 1px;
+    margin-top: px;
+    background-color: #9F7944;
+}
+
+.div-cima-text h1 {
+    width: 414px;
+    height: 155px;
+    margin-left: 166px;
+    padding-top: 180px;
+    font-family: 'Cormorant Garamond';
+    font-weight: 700;
+    font-size: 128px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.div-cima-text h2 {
+    font-family: 'Cormorant Garamond';
+    font-weight: 300;
+    font-size: 36px;
+    color: #FFFFFF;
+    padding-top: 160px;
+    width: 750px;
+}
+
+.div-cima a {
+    display: block;
+    width: 238px;
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    border: 0;
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 22px;
+    padding-top: 10px;
+    text-align: center;
+    color: #000000;
+    margin-top: 50px;
+    margin-left: 45%;
+    text-decoration: none;
+}
+
+.information {
+    margin-top: 50px;
+    margin-left: 17%;
+    margin-bottom: 50px;
+}
+
+.card-body h5 {
+    font-family: 'Cinzel', serif;
+    color: #9F7944;
+    font-weight: 900;
+}
+
+.card-body p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.seta {
+    position: fixed;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.61);
+    opacity: 0;
+    bottom: 20px;
+    right: 20px;
+    transition: background-color .5s linear;
+}
+
+.show-seta {
+    opacity: 1;
+    transition: 2s linear;
+}
+
+.carrossel-div {
+    margin-top: 50px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.carrossel-div h1 {
+    font-family: 'Cormorant Garamond';
+    font-weight: 700;
+    font-size: 100px;
+    text-align: center;
+    color: #9F7944;
+}
+
+.line04 {
+    background-color: #9F7944;
+    width: 100%;
+    height: 1px;
+    margin-bottom: 50px;
+}
+
+.carousel-item {
+    width: 1300px;
+
+    margin-left: 273px;
+}
+
+.carousel-control-prev {
+    margin-top: 179px;
+    background-color: #000;
+}
+
+.carousel-control-next{
+    margin-top: 179px;
+    background-color: #000;
+}
