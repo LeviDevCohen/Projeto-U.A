@@ -340,8 +340,17 @@ height: 160px;
 }
 
 .div-eveimg{
-    padding-left: 500px;
-    padding-top: 20px;
-    width: 400px;
+    padding-left: 30%;
     text-align: center;
+    padding-top: 20px;
+    width: 600px;
+}
+
+.div-ev2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
 }
