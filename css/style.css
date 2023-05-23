@@ -278,7 +278,7 @@ height: 160px;
     text-align: center;
 }
 
-p{
+.p{
     font-family: 'Cormorant Garamond', serif;
     font-size: 30px;
     width: 828px;
@@ -286,35 +286,29 @@ p{
     text-align: center;
 }
 
-h2{
+.h2{
     font-family: 'Cormorant Garamond', serif;
     text-align: center;
 }
 
-h3{
+.h3{
     font-family: 'Cormorant Garamond', serif;
     font-size: 25px;
     width: 650px;
 }
 
-h4{
+.h4{
     font-family: 'Outfit', sans-serif;
     font-size: 22px;
     padding-top: 50px;
     text-align: center;
 }
 
-
 .corpo-2{
     display: flex;
     gap: 40px;
     padding-left: 20px;
     padding-bottom: 20px;
-}
-
-a{
-    text-decoration: inherit;
-    color: inherit;
 }
 
 .corpo-1 {
@@ -332,4 +326,22 @@ a{
 .corpo-3 img{
     width: 456px;
     height: 309px;
+}
+
+
+.div-evento{
+    display: flex;
+    font-family: 'Cinzel';
+    font-size: 48px;
+    justify-content: end;
+    color:rgba(159, 121, 68, 1);
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.div-eveimg{
+    padding-left: 500px;
+    padding-top: 20px;
+    width: 400px;
+    text-align: center;
 }
