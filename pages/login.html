@@ -6,27 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Cinzel:wght@400;900&family=Comfortaa:wght@300&family=Cormorant+Garamond:wght@300;500;600;700&family=Cormorant+Infant:wght@300&family=Cormorant:wght@300&family=Merriweather:wght@300&family=Montserrat:wght@300;600&family=Outfit:wght@100;200&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <div class="divLoginLabel">
-        <h1>Login</h1>
+        <img src="./img/logo02.png" alt="">
+        <h1>Coloque seu Login.</h1>
     </div>
+    <main class="container">
+        <div class="div-esquerdo">
+            <form class="answer" action="">
+                <label for="login">
+                    Login
+                    <br>
+                    <input type="text" name="login" id="login">
+                </label>
+                <br>
+                <label for="senha">
+                    Senha
+                    <br>
+                    <input type="password" name="senha" id="senha">
+                </label>
+                <br>
+                <br>
+                <button type="button" id="btnLogin" onclick="entrar()">Entrar</button>
+            </form>
 
-    <label for="login">
-        Login
-        <br>
-        <input type="text" name="login" id="login">
-    </label>
-    <br>
-    <label for="senha">
-        senha
-        <br>
-        <input type="password" name="senha" id="senha">
-    </label>
-    <br>
-    <br>
-    <button type="button" id="btnLogin" onclick="login()">Entrar</button>
+        </div>
+        <div class="div-direito">
+            <!-- <img src="./img\university.jpg" alt=""> -->
+        </div>
+    </main>
 
     <script src="./js/loginScript.js"></script>
 </body>

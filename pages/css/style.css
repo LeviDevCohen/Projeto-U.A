@@ -90,7 +90,8 @@ label {
     font-size: 30px;
     color: #9F7944;
     margin-top: 100px;
-    padding-right: 500px;
+    padding-right: px;
+    width: 500px;
 }
 
 /* .titulo-div img{
@@ -278,18 +279,18 @@ height: 160px;
     text-align: center;
 }
 
+/* 
 p {
     /* font-family: 'Cormorant Garamond', serif;
     font-size: 30px;
     width: 828px;
     height: 231px;
     text-align: center; */
-}
-
-h2 {
-    /* font-family: 'Cormorant Garamond', serif;
-    text-align: center; */
-}
+*/
+/* h2 {
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+} */
 
 h3 {
     font-family: 'Cormorant Garamond', serif;
@@ -588,4 +589,170 @@ a {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.divLoginLabel {
+    display: flex;
+    background-color: #d0dce7;
+    align-items: center;
+
+}
+
+.divLoginLabel h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 50px;
+    color: #9F7944;
+}
+
+.divLoginLabel img {
+    width: 150px;
+}
+
+.div-direito {
+    background-image: url('/pages/img/university.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 100%;
+}
+
+.div-esquerdo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d0dce7;
+}
+
+
+.container {
+    height: calc(100vh - 109px);
+    display: flex;
+}
+
+form .answer{
+    background-color: #9f794467;
+    height: 40%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    border: 0;
+    border-radius: 30px;
+}
+
+label {
+    font-family:'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 55px;
+}
+
+input {
+    height: 30px;
+    width: 250px;
+    margin-left: 55px;
+}
+
+button{
+    width: 250px;
+    height: 30px;
+    border: 0 ;
+    border-radius: 50px;
+    background-color: #b4884a;
+    font-family: 'Cormorant Garamond', serif;
+    margin-left: 55px;
+    font-size: 25px;
+    text-align: center;
+}
+
+textarea{
+    margin-left: 55px;
+}
+
+.inicialPag{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.contato-meio{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 550px;
+    background-color: #d0dce7d0;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 30px;
+}
+
+.divContatoLabel {
+   
+    display: flex;
+    background-color: #d0dce7;
+    align-items: center;
+
+}
+
+.divContatoLabel h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 50px;
+    color: #9F7944;
+}
+
+.divContatoLabel img {
+    width: 150px;
+}
+
+.contato-container{
+    background-image: url('/pages/img/university.jpg');
+}
+
+#frmMessageSubmited {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 20px;
+    color: #9F7944;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.inicialPag a{
+    color: #1D3E60;
+}
+
+.restrito-div{
+    background-image: url('/pages/img/museum.jpg')
+}
+
+.restritoTexto{
+    background-color: #9f794483;
+   
+}
+
+.restritoTexto h1{
+    font-size: 60px;
+    color: #000000;
+    margin-left: 40%;
+}
+
+.restritoTexto h3{
+    font-size: 20px;
+    color: #000000;
+    margin-left: 45%;
+}
+
+.restritoResto a{
+   
+    border-radius: 50px;
+    background-color: #9F7944;
+    font-size: 20px;
+    color: #000000;
+    margin-left: 45%;
+}
+
+.restritoResto table{
+    background-color: #e9f4ff91;
+    margin-left: 25%;
+    margin-top: 100px;
 }
