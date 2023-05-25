@@ -12,23 +12,24 @@
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link
     href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Cinzel:wght@400;900&family=Comfortaa:wght@300&family=Cormorant+Garamond:wght@300;500;600;700&family=Cormorant+Infant:wght@300&family=Cormorant:wght@300&family=Merriweather:wght@300&family=Montserrat:wght@300;600&family=Outfit:wght@100;200&display=swap"
     rel="stylesheet">
-
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="../css/inicio.css">
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg p-0">
     <div class="container-fluid">
-      <img src="/img/u.a.png" alt="">
+      <a href="./index.html"><img src="/img/u.a.png" alt="Logo" id="logo"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 navIndex">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
           </li>
@@ -56,25 +57,25 @@
           <h1>Universal Academy</h1>
         </div>
         <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <input class="form-control me-2" type="search" placeholder="Pesquisar..." aria-label="Search">
+          <button class="btn btn-outline-success" type="submit"><i class="fa fa-search"></i></button>
         </form>
       </div>
     </div>
   </nav>
   <div class="line"></div>
   <div class="pensadores-div">
-    <div class="CarlSagan">
+    <div class="CarlSagan pensadorBox">
       <img src="/img/CarlSagan.png" alt="">
       <div class="Carl"><img src="/img/Group 11 (1).png" alt=""></div>
     </div>
-    <div class="StephenHawking">
+    <div class="StephenHawking pensadorBox">
       <img src="/img/Stephen.png" alt="">
       <div class="ste">
         <img src="/img/Group 12 (1).png" alt="">
       </div>
     </div>
-    <div class="Greta">
+    <div class="Greta pensadorBox">
       <div class="gret">
         <img class="citacao" src="/img/Group 4 (3).png" alt="">
       </div>
@@ -83,33 +84,36 @@
   </div>
   <div class="div-box">
     <h1>Universal Academy</h1>
-    <ul>
-      <li>Segurança & Marca</li>
-      <li>Website</li>
-      <li>Contato</li>
+    <ul id="ulFooter">
+      <li><a href="#">Segurança & Marca</a></li>
+      <li><a href="#">Website</a></li>
+      <li><a href="#">Contato</a></li>
     </ul>
     <div class="seguranca">
-      <a href="#">... Reportar Infração de Copyright</a>
+      <a href="https://support.google.com/chrome_webstore/answer/7508032?hl=pt-BR">... Reportar Infração de
+        Copyright</a>
       <br>
       <br>
-      <a href="#">Informar problemas de Segurança...</a>
+      <a href="https://support.google.com/accounts/answer/6294825?hl=pt-BR">Informar problemas de Segurança...</a>
     </div>
     <div class="website">
-      <a href="#">...Acessibilidade</a>
+      <a href="https://www.google.com/intl/pt-BR/accessibility/">...Acessibilidade</a>
       <br>
       <br>
-      <a href="#">Acessibilidade Digital...</a>
+      <a href="https://www.google.com/intl/pt-BR/accessibility/initiatives-research/">Acessibilidade Digital...</a>
     </div>
     <div class="contato">
-      <a href="#">...Contate U.A</a>
+      <a
+        href="https://accounts.google.com/v3/signin/identifier?dsh=S1929490974%3A1684238753075369&continue=https%3A%2F%2Fcontacts.google.com%2F%3Fhl%3Dpt-br&followup=https%3A%2F%2Fcontacts.google.com%2F%3Fhl%3Dpt-br&hl=pt-br&ifkv=Af_xneHlzAU96dbkymakZgyFsFPJL6la2z68JSo4mEYqe5stX4c7fRc9GOs63wvEvtCW6aZ1PjI-&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin">...Contate
+        U.A</a>
       <br>
       <br>
-      <a href="#">Trabalhe Conosco...</a>
+      <a href="https://careers.google.com/locations/sao-paulo/">Trabalhe Conosco...</a>
     </div>
     <div class="logos">
       <img src="/img/c.png" alt="">
-      <img src="/img/logo02.png" alt="">
-      <img src="/img/redes.png" alt="">
+      <img src="/img/logo02.png" alt="Logo" id="logo2">
+      <img src="/img/redes.png" alt="Sociais" id="logosSociais">
     </div>
   </div>
   <script src="/js/script.js"></script>
