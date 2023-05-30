@@ -1,0 +1,45 @@
+.restrito-div{
+    background-image: url('./pages/img/museum.jpg')
+}
+
+.restritoTexto{
+    background-color: #9f794483;
+   
+}
+
+.restritoTexto h1{
+    font-family: 'Cinzel', serif;
+    font-size: 60px;
+    color: #000000;
+    margin-left: 40%;
+
+}
+
+.restritoTexto h3{
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    color: #000000;
+    margin-left: 45%;
+}
+
+.restritoResto a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.retorne{
+    border-radius: 50px;
+    background-color: #9F7944;
+    width: 400px;
+    margin-left: 40%;
+    text-align: center;
+}
+
+
+.restritoResto table{
+    background-color: #e9f4ff91;
+    /* margin-left: 25%; */
+    margin-top: 100px;
+}
