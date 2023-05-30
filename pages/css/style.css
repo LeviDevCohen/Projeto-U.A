@@ -767,3 +767,7 @@ textarea{
     margin-top: 100px;
 }
 
+.corpo a{
+    text-decoration: none;
+    color: inherit;
+}
