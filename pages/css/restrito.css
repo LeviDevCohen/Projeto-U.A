@@ -43,3 +43,47 @@
     /* margin-left: 25%; */
     margin-top: 100px;
 }
+
+@media screen and (max-width: 430) {
+    #myTable {
+        width: 90%;
+    }
+
+    tbody {
+        width: 90% !important;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    tr {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 100px !important;
+        width: 90% !important;
+    }
+
+
+    .restritoTexto h1{
+        font-family: 'Cinzel', serif;
+        font-size: 60px;
+        color: #000000;
+        margin-left: 0 !important;
+    
+    }
+    
+    .restritoTexto h3{
+        font-family: 'Cinzel', serif;
+        font-size: 20px;
+        color: #000000;
+        margin-left: 0 !important;
+    }
+
+    .retorne{
+        border-radius: 50px;
+        background-color: #9F7944;
+        width: 400px;
+        margin: 0px !important;
+        text-align: center;
+    }
+}
