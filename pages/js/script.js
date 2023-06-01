@@ -13,14 +13,14 @@ function scrollChangeColor () {
 
 window.addEventListener('scroll', scrollChangeColor);
 
-// function login(){
-//     let login = document.getElementById("login").value;
-//     let senha = document.getElementById("senha").value;
+function login(){
+    let login = document.getElementById("login").value;
+    let senha = document.getElementById("senha").value;
 
-//     if (login == senha){
-//         window.location.href = "restrito.html";
-//     }
-// };
+    if (login == senha){
+        window.location.href = "restrito.html";
+    }
+};
 
 
 let btnContato = document.getElementById("btnContato");
