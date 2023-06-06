@@ -1,4 +1,99 @@
-.restrito-div{
+.page {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.restritoTexto{
+    background-color: #9f794483;
+   text-align: center;
+   width: 100%;
+}
+
+.restritoTexto h1{
+    font-family: 'Cinzel', serif;
+    font-size: 60px;
+    color: #000000;
+    width: 100%;
+    text-align: center;
+}
+
+.restritoTexto h3{
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    color: #000000;
+    width: 100%;
+    text-align: center;
+}
+
+
+#linkBackHome{
+    display: none;
+}
+
+.restrito-mensagens{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.restrito-mensagem{
+    width: 90%;
+    background-color: rgb(224, 237, 237);
+    margin-top: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(232, 200, 158);
+    border-width: 2px;
+    line-height: 2;
+}
+
+.restrito-mensagem-titulo{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(224, 237, 237);
+    background-color: aliceblue;
+    padding: 5px;
+}
+
+.restrito-mensagem-titulo p{
+    line-height: 0.7;
+    margin: 10px;
+    text-align: center;
+}
+
+.restrito-mensagem-conteudo{
+    padding: 0px;
+    text-align: center;
+    
+}
+
+#myTable {
+    width: 100%;
+}
+
+.aReturn {
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    color: #1D3E60;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px){
+    #myTable{
+        display: none;
+    }
+    .restrito-mensagens{
+        display: flex;
+    }
+}
+
+/* .restrito-div{
     background-image: url('./pages/img/museum.jpg')
 }
 
@@ -44,7 +139,7 @@
 
 .restritoResto table{
     background-color: #e9f4ff91;
-    /* margin-left: 25%; */
+    margin-left: 25%;
 }
 
 @media screen and (max-width: 430) {
@@ -89,4 +184,4 @@
         margin: 0px !important;
         text-align: center;
     }
-}
+} */

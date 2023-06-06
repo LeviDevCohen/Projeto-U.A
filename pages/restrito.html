@@ -66,28 +66,42 @@
     </div>
   </nav>
   <div class="line"></div>
-    <div class="restritoResto">
-        <div class="restritoTexto">
-            <h1>Área Restrita</h1>
-            <br>
-            <h3>Mensagens dos visitantes</h3>
-        </div>
-        <div class="table-responsiv">
-          <table id="myTable" border="1" class="table-responsive-sm table-hover">
-            <tr>
-                <td>Data/Hora</td>
-                <td>Nome</td>
-                <td>E-Mail</td>
-                <td>Assunto</td>
-                <td>Mensagem</td>
-            </tr>
-        </table>
-        </div>
-        
+  <div class="page">
+    <div class="restritoTexto">
+      <h1>Área Restrita</h1>
+      <br>
+      <h3>Mensagens dos visitantes</h3>
+  </div>
+    <table id="myTable" border="1">
+      <tr>
+          <td>Data/Hora</td>
+          <td>Nome</td>
+          <td>E-Mail</td>
+          <td>Assunto</td>
+          <td>Mensagem</td>
+      </tr>
+  </table>
+  
+  <div id="container-mensagens" class="restrito-mensagens">
+      <div class="restrito-mensagem">
+          <div class="restrito-mensagem-titulo">
+              <p>Data: 00/00/0000</p>
+              <p>Nome: Gustavo Rodrigues</p>
+              <p>Email: gustavo@gustavo.com.br</p>
+              <p>Assunto: Teste</p>
+          </div>
+          <div class="restrito-mensagem-conteudo">
+              <p>Mensagem</p>
+          </div>
+      </div>
+  </div>
+  </div>
 
-        <br>
-        <div class="retorne"><a href="index.html">Retornar à pagina inicial</a></div>
-       
+
+<br>
+<a href="index.html" class="aReturn">Retornar à pagina inicial</a>
+
+<script src="./js/db.js"></script>
 
     </div>
 
