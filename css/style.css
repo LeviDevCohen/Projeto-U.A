@@ -456,6 +456,10 @@ a {
     font-weight: 900;
 }
 
+.card mb-3 {
+    height: 100px;
+}
+
 .card-body p {
     font-family: 'Montserrat', sans-serif;
 }
